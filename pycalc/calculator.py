@@ -53,3 +53,7 @@ while (quitapp):
         quitapp = False
         quit(self)
     
+    else:
+        print("Opção inválida.")
+        print()
+    
