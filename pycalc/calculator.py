@@ -47,7 +47,6 @@ while (isActive):
         print()
         print("Obrigado! Até logo.")
         isActive = False
-        #quit(self)
     
     else:
         print("Opção inválida.")
