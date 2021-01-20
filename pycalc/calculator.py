@@ -1,10 +1,5 @@
 # Console Calculator made using python.
 
-import this
-self = this
-
-# Functions
-
 def sum(x, y):
     return x + y
 
@@ -17,9 +12,9 @@ def divide(x, y):
 def multiply(x, y):
     return x * y
 
-quitapp = True
+isActive = True # Is this program being used at the moment? If not, stop the loop.
 
-while (quitapp):
+while (isActive):
     print("Bem vindo a calculadora python.")
     print("Escolha uma das opcoes: ")
     print("1-Soma | 2-Subtracao | 3-Multiplicacao | 4-Divisao | q-Sair.")
@@ -49,9 +44,10 @@ while (quitapp):
         print("Resultado = " + str(output))
         print()
     if (opt == "q"):
+        print()
         print("Obrigado! Até logo.")
-        quitapp = False
-        quit(self)
+        isActive = False
+        #quit(self)
     
     else:
         print("Opção inválida.")
