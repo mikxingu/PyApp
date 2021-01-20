@@ -13,4 +13,5 @@ I'd appreciate if you'd open an [Issue](https://github.com/mikxingu/PyApps/issue
 
 [Console Calculator](./pycalc) - A simple calculator application made with python.
 
+[Chapter1 Concepts](./pyconceptsc1) - Concepts I tried to replicate while I was reading the book "Think Python - Chapter 1"
 
