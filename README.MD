@@ -7,3 +7,10 @@ I'll be updating this repo very frequently and I'll try to make comments on my a
 Feel free to download, test and change the code you see here. 
 
 I'd appreciate if you'd open an [Issue](https://github.com/mikxingu/PyApps/issues) to request some changes or give me some new ideas.
+
+## Apps 
+---
+
+[Console Calculator](./pycalc) - A simple calculator application made with python.
+
+
