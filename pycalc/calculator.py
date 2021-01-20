@@ -19,35 +19,34 @@ while (isActive):
     print("Escolha uma das opcoes: ")
     print("1-Soma | 2-Subtracao | 3-Multiplicacao | 4-Divisao | q-Sair.")
     opt = input("Opção: ")
-    if (opt == "1"):
+    if opt == "1":
         inputx = float(input("Informe o primeiro valor: "))
         inputy = float(input("Informe o segundo valor: "))
         output = sum(inputx, inputy)
         print("Resultado = " + str(output))
         print()
-    if (opt == "2"):
+    elif opt == "2":
         inputx = float(input("Informe o primeiro valor: "))
         inputy = float(input("Informe o segundo valor: "))
         output = subtract(inputx, inputy)
         print("Resultado = " + str(output))
         print()
-    if (opt == "3"):
+    elif opt == "3":
         inputx = float(input("Informe o primeiro valor: "))
         inputy = float(input("Informe o segundo valor: "))
         output = multiply(inputx, inputy)
         print("Resultado = " + str(output))
         print()
-    if (opt == "4"):
+    elif opt == "4":
         inputx = float(input("Informe o primeiro valor: "))
         inputy = float(input("Informe o segundo valor: "))
         output = divide(inputx, inputy)
         print("Resultado = " + str(output))
         print()
-    if (opt == "q"):
+    elif opt == "q":
         print()
         print("Obrigado! Até logo.")
         isActive = False
-    
     else:
         print("Opção inválida.")
         print()
