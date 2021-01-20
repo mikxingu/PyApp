@@ -1,4 +1,4 @@
-from pyguicrud.Users import Users
+from . import Users
 from tkinter import *
 
 class Application:

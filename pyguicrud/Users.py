@@ -1,9 +1,8 @@
-from pyguicrud.Database import Database
+from .Database import Database
 
 class Users(object):
 
-    def __init__(self, userid = 0, name = "", phone = "",
-    email = "", username = "", password = ""):
+    def __init__(self, userid = 0, name = "", phone = "", email = "", username = "", password = ""):
         self.info = {}
         self.userid = userid
         self.name = name
