@@ -10,6 +10,7 @@ I'd appreciate if you'd open an [Issue](https://github.com/mikxingu/PyApps/issue
 
 ## Apps 
 ---
+[GUI Concept](./pyguiconcept) - A GUI application using the TKInter library.
 
 [Console Calculator](./pycalc) - A simple calculator application made with python.
 
