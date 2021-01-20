@@ -18,7 +18,7 @@ class Application:
         self.quartoContainer["pady"] = 20
         self.quartoContainer.pack()
 
-        self.titulo = Label(self.primeiroContainer, text="dados do usuário")
+        self.titulo = Label(self.primeiroContainer, text="Dados do Usuário")
         self.titulo["font"] = ("Arial", "10", "bold")
         self.titulo.pack()
 
